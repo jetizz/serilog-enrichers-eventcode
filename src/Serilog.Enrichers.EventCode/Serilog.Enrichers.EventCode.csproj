@@ -6,6 +6,7 @@
     <Company />
     <Description>Adds EventCode to log events, based on deterministic hash of messageTemplate field.</Description>
     <PackageProjectUrl>https://github.com/jetizz/serilog-enrichers-eventcode</PackageProjectUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

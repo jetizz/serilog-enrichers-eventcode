@@ -14,7 +14,7 @@ namespace Serilog.Enrichers.EventCode
         /// </summary>
         /// <param name="enrichmentConfiguration">Logger enrichment configuration.</param>
         /// <returns>Configuration object allowing method chaining.</returns>
-        public static LoggerConfiguration WithMemoryUsage(this LoggerEnrichmentConfiguration enrichmentConfiguration)
+        public static LoggerConfiguration WithEventCode(this LoggerEnrichmentConfiguration enrichmentConfiguration)
         {
             if (enrichmentConfiguration == null) throw new ArgumentNullException(nameof(enrichmentConfiguration));
             return enrichmentConfiguration.With<EventCodeEnricher>();
