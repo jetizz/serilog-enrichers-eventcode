@@ -2,7 +2,7 @@
 using Serilog.Events;
 using System;
 
-namespace Serilog.Enrichers.EventCode
+namespace Serilog.Enrichers
 {
     public class EventCodeEnricher : ILogEventEnricher
     {

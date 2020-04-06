@@ -1,7 +1,7 @@
 ﻿using Serilog.Configuration;
 using System;
 
-namespace Serilog.Enrichers.EventCode
+namespace Serilog.Enrichers
 {
     /// <summary>
     /// Extends <see cref="LoggerConfiguration"/> to add enrichers related to memory.
