@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>jetizz</Authors>
+    <Company />
+    <Description>Adds EventCode to log events, based on deterministic hash of messageTemplate field.</Description>
+    <PackageProjectUrl>https://github.com/jetizz/serilog-enrichers-eventcode</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.9.0" />
+  </ItemGroup>
+
+</Project>
